@@ -1,5 +1,3 @@
-import plotly.graph_objects as go
-
 def create_gauge(value, title, min_val=0, max_val=100, thresholds=None, unit="%"):
     """
     Crée une jauge interactive
@@ -12,6 +10,8 @@ def create_gauge(value, title, min_val=0, max_val=100, thresholds=None, unit="%"
         thresholds: Liste de tuples [(seuil, couleur), ...]
         unit: Unité d'affichage
     """
+    import plotly.graph_objects as go
+    
     if thresholds is None:
         thresholds = [
             (max_val * 0.4, "lightgreen"),
