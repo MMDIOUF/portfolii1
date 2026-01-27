@@ -165,7 +165,7 @@ def inject_custom_css():
     }
     
     span[label="Apps"]::before {
-        content: "Apps";
+        content: "Applications Déployées";
     }
     
     /* Masquer aussi le texte dans les liens de navigation pendant le chargement */

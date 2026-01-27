@@ -37,7 +37,7 @@ st.markdown("""
 MOUHAMADOU MAKHTAR DIOUF
 </h2>
 <p style='font-size: 1.2rem; color: #6366f1; font-weight: 600; margin-bottom: 1rem;'>
-Data Analyst • Business Intelligence • Process Automation
+Data Analyst • Data Science • Systèmes Data Décisionnels
 </p>
 <p style='font-size: 1rem; color: #374151; margin-bottom: 1rem;'>
 Je transforme vos données en <strong>outils de décision</strong>
@@ -169,7 +169,7 @@ st.markdown("""
         Je construis des <span style='background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>outils de décision</span>
     </h3>
     <p style='font-size: 1rem; opacity: 0.9; margin-bottom: 1.5rem;'>
-        Disponible immédiatement • Data Analysis, BI et Automatisation
+        Disponible immédiatement • Data Analysis, Data Science et Automatisation
     </p>
     <a href='tel:+221771479009' style='display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 2.5rem; border-radius: 25px; font-size: 1.1rem; font-weight: 600; text-decoration: none; box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);'>
         📞 Me Contacter

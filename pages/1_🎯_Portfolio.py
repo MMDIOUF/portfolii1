@@ -11,9 +11,10 @@ st.markdown("""
     <h1 style="font-size: 3.2rem; font-weight: 800; color: #1f2937; margin-bottom: 1.5rem;">
         Portfolio Data
     </h1>
-    <p style="font-size: 1.4rem; color: #6b7280; max-width: 820px; margin: 0 auto; line-height: 1.6;">
-        De la donnée brute<br/>
-        <strong>à la décision stratégique.</strong>
+    <p style="font-size: 1.4rem; color: #6b7280; max-width: 860px; margin: 0 auto; line-height: 1.6;">
+        Des projets concrets, orientés terrain,
+        couvrant toute la chaîne data :
+        de la collecte à la décision.
     </p>
 """, unsafe_allow_html=True)
 
@@ -26,7 +27,7 @@ st.markdown("""
         ☁️ La fondation
     </h2>
     <p style="color: #6b7280; font-size: 1.2rem;">
-        Sans pipeline fiable, aucune analyse n'est crédible.
+        Toute analyse fiable repose sur une architecture data robuste.
     </p>
 """, unsafe_allow_html=True)
 
@@ -37,9 +38,9 @@ with col1:
     st.markdown(create_info_card(
         "Pipeline Multi-Cloud Immobilier",
         {
-            "Objectif": "Automatisation data",
-            "Cloud": "AWS • GCP",
-            "Valeur": "Analyse fiable & scalable"
+            "Objectif": "Automatiser collecte et préparation",
+            "Cloud": "Environnements AWS et GCP",
+            "Valeur": "Données fiables pour décision"
         },
         "☁️",
         "primary"
@@ -49,9 +50,9 @@ with col2:
     st.markdown(create_info_card(
         "Big Data & Automatisation",
         {
-            "Objectif": "Traitement massif",
-            "Mode": "Batch & Temps réel",
-            "Valeur": "Zéro intervention humaine"
+            "Objectif": "Traiter volumes importants",
+            "Mode": "Batch et flux automatisés",
+            "Valeur": "Réduction interventions manuelles"
         },
         "🔄",
         "success"
@@ -60,38 +61,38 @@ with col2:
 # EXPANDERS (DÉTAIL SUR DEMANDE)
 with st.expander("🔍 Voir les détails — Pipeline Multi-Cloud"):
     st.markdown("""
-    **Problème**  
-    Données immobilières dispersées, non exploitables.
+    **Problématique**  
+    Les données immobilières étaient dispersées, hétérogènes et difficiles à exploiter.
     
-    **Solution**  
-    Pipeline automatisé entre AWS et GCP pour collecter, stocker, sécuriser et analyser.
+    **Approche**  
+    Mise en place d'un pipeline automatisé multi-cloud pour centraliser, nettoyer, stocker et analyser les données.
     
-    **Impact**
-    - Fiabilité des données garantie
+    **Résultats**
+    - Données structurées et fiables
     - Analyse quasi temps réel
     - Architecture scalable et sécurisée
-    - Réduction 80% des interventions manuelles
+    - Forte réduction des opérations manuelles
     
-    **Technologies**  
-    `AWS S3` • `Lambda` • `IAM` • `GCP BigQuery` • `Cloud Storage` • `Python` • `SQL`
+    **Compétences**  
+    Data Engineering • Cloud Architecture • Automatisation
     """)
 
 with st.expander("🔍 Voir les détails — Big Data & Automatisation"):
     st.markdown("""
-    **Problème**  
-    Volumes massifs de données nécessitant traitement batch et temps réel.
+    **Problématique**  
+    Volumes de données élevés nécessitant des traitements robustes et continus.
     
-    **Solution**  
-    Pipelines Big Data avec ingestion automatisée, monitoring et alerting.
+    **Approche**  
+    Conception de pipelines Big Data avec ingestion automatisée, contrôles de qualité et supervision des flux.
     
-    **Impact**
-    - Automatisation complète ETL
-    - Monitoring temps réel des flux
-    - Alerting automatique sur anomalies
-    - Traçabilité complète des données
+    **Résultats**
+    - Automatisation complète des traitements
+    - Suivi et traçabilité des données
+    - Détection rapide des anomalies
+    - Meilleure fiabilité globale des flux
     
-    **Technologies**  
-    `Hadoop` • `Hive` • `Apache NiFi` • `Talend` • `Python` • `SQL`
+    **Compétences**  
+    Big Data Processing • ETL Automation • Data Quality Management
     """)
 
 st.markdown("---")
@@ -103,7 +104,7 @@ st.markdown("""
         🤖 Anticiper
     </h2>
     <p style="color: #6b7280; font-size: 1.2rem;">
-        La data prend de la valeur quand elle prédit.
+        Aller au-delà du constat pour anticiper les comportements.
     </p>
 """, unsafe_allow_html=True)
 
@@ -114,9 +115,9 @@ with col1:
     st.markdown(create_info_card(
         "Prédiction Churn Client",
         {
-            "Usage": "Rétention",
-            "Résultat": "Recall 85%",
-            "Décision": "Ciblage proactif"
+            "Usage": "Rétention client",
+            "Résultat": "Modèle performant et exploitable",
+            "Décision": "Actions ciblées en amont"
         },
         "📉",
         "warning"
@@ -126,9 +127,9 @@ with col2:
     st.markdown(create_info_card(
         "Souscription Assurance",
         {
-            "Usage": "Marketing",
-            "Résultat": "Accuracy 89%",
-            "Décision": "ROI +45%"
+            "Usage": "Ciblage marketing",
+            "Résultat": "Modèle prédictif fiable",
+            "Décision": "Optimisation des campagnes"
         },
         "🏦",
         "info"
@@ -138,9 +139,9 @@ with col3:
     st.markdown(create_info_card(
         "Prévision de Salaire",
         {
-            "Usage": "RH",
-            "Résultat": "R² 0.87",
-            "Décision": "Équité & pilotage"
+            "Usage": "Aide à la décision RH",
+            "Résultat": "Modèle explicatif et cohérent",
+            "Décision": "Pilotage et équité"
         },
         "💰",
         "success"
@@ -150,58 +151,58 @@ with col3:
 with st.expander("🔍 Détails — Prédiction Churn Client"):
     st.markdown("""
     **Objectif**  
-    Identifier les clients à risque avant la rupture.
+    Identifier les clients à risque afin d'agir avant la rupture.
     
-    **Méthode**  
-    - Feature engineering avancé (RFM, comportement, historique)
-    - Modèles de classification (Random Forest, XGBoost)
-    - Validation croisée et optimisation hyperparamètres
+    **Approche**  
+    - Analyse comportementale et historique client
+    - Feature engineering orienté métier
+    - Modèles de classification et validation rigoureuse
     
-    **Valeur business**  
-    - Réduction des pertes clients de 30%
-    - Campagnes de rétention ciblées
-    - ROI positif dès le 2ème mois
+    **Valeur**  
+    - Meilleure anticipation des départs
+    - Actions de rétention plus ciblées
+    - Décisions basées sur des données fiables
     
-    **Stack**  
-    `Python` • `Scikit-Learn` • `Pandas` • `Streamlit`
+    **Compétences**  
+    Machine Learning appliqué • Modélisation prédictive • Feature Engineering
     """)
 
 with st.expander("🔍 Détails — Prédiction Souscription Assurance"):
     st.markdown("""
     **Objectif**  
-    Cibler les profils à fort potentiel de souscription.
+    Identifier les profils les plus susceptibles de souscrire.
     
-    **Méthode**  
-    - Réseau de neurones (Deep Learning)
-    - Analyse historique campagnes + données clients
-    - Scoring prédictif en temps réel
+    **Approche**  
+    - Exploitation de données clients et campagnes
+    - Modélisation prédictive et scoring
+    - Tests et évaluation des performances
     
-    **Valeur business**  
-    - Réduction coûts marketing de 45%
-    - Taux de conversion +35%
-    - Ciblage précis des prospects
+    **Valeur**  
+    - Réduction du gaspillage marketing
+    - Meilleur ciblage des prospects
+    - Augmentation de l'efficacité commerciale
     
-    **Stack**  
-    `TensorFlow` • `Keras` • `Scikit-Learn` • `Pandas`
+    **Compétences**  
+    Deep Learning appliqué • Classification • Data Analysis
     """)
 
 with st.expander("🔍 Détails — Prévision de Salaire"):
     st.markdown("""
     **Objectif**  
-    Aider les décisions RH par des modèles objectifs et équitables.
+    Apporter un appui objectif aux décisions RH.
     
-    **Méthode**  
-    - Régression multiple avec feature engineering
-    - Analyse des facteurs explicatifs (expérience, compétences, secteur)
-    - Rapports automatisés pour RH
+    **Approche**  
+    - Modèles de régression et analyse des facteurs clés
+    - Étude de l'impact des compétences et de l'expérience
+    - Visualisation claire des résultats
     
-    **Valeur business**  
-    - Équité salariale garantie
-    - Pilotage masse salariale optimisé
-    - Transparence des décisions
+    **Valeur**  
+    - Aide à l'équité salariale
+    - Vision claire des leviers de rémunération
+    - Support à la décision RH
     
-    **Stack**  
-    `Python` • `Scikit-Learn` • `Seaborn` • `Pandas`
+    **Compétences**  
+    Régression & Modélisation • Data Analysis • Data Visualization
     """)
 
 st.markdown("---")
@@ -210,10 +211,10 @@ st.markdown("---")
 st.markdown("""
 <div style="padding: 2rem 0 1rem;">
     <h2 style="font-size: 2.2rem; font-weight: 700; color: #1f2937; margin-bottom: 0.5rem;">
-         Voir pour décider
+        📊 Voir pour décider
     </h2>
     <p style="color: #6b7280; font-size: 1.2rem;">
-        Un bon dashboard élimine le bruit.
+        Rendre les données lisibles pour faciliter la décision.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -225,9 +226,9 @@ with col1:
     st.markdown(create_info_card(
         "Dashboards BI — IPSOS",
         {
-            "Usage": "Suivi performance agents",
-            "Impact": "Automatisation processus",
-            "Valeur": "Réduction coûts humains"
+            "Usage": "Suivi opérationnel des équipes",
+            "Impact": "Automatisation du reporting",
+            "Valeur": "Gain de temps et visibilité"
         },
         "📊",
         "primary"
@@ -238,8 +239,8 @@ with col2:
         "Dashboard Ventes USA",
         {
             "Usage": "Analyse commerciale",
-            "Fonctions": "KPIs & Cartes",
-            "Valeur": "Lecture immédiate"
+            "Fonctions": "KPIs, filtres et visualisations",
+            "Valeur": "Lecture rapide des performances"
         },
         "📈",
         "info"
@@ -249,42 +250,39 @@ with col2:
 with st.expander("🔍 Détails — Dashboards BI IPSOS"):
     st.markdown("""
     **Contexte**  
-    Cabinet d'études avec équipes terrain et téléphoniques. Besoin de suivi de performance et automatisation du reporting.
+    Environnement d'études avec équipes terrain et téléphoniques.
     
     **Solution**  
-    - Dashboards décisionnels pour visualisation KPIs agents
-    - Automatisation des processus de reporting manuels
-    - Suivi performance en temps réel par agent et campagne
-    - Visualisation dynamique des indicateurs métier
+    - Tableaux de bord dynamiques et décisionnels
+    - Suivi des KPIs par agent et campagne
+    - Automatisation des reportings manuels
     
-    **Impact**  
-    - Réduction drastique du temps de reporting manuel
-    - Diminution des coûts humains liés au suivi
-    - KPIs parlants et accessibles instantanément
-    - Suivi performance agents optimisé
+    **Résultats**  
+    - Gain de temps significatif
+    - Meilleure lisibilité de la performance
+    - Suivi opérationnel optimisé
     
-    **Stack**  
-    `Python` • `Streamlit` • `Pandas` • `Plotly` • `Seaborn` • `Excel`
+    **Compétences**  
+    Business Intelligence • Dashboards décisionnels • Process Automation
     """)
 
 with st.expander("🔍 Détails — Dashboard Ventes USA"):
     st.markdown("""
     **Objectif**  
-    Analyse interactive des ventes par région, état et client.
+    Analyser les ventes par région, produit et client.
     
     **Fonctionnalités**  
-    - KPIs temps réel (CA, volume, marge)
-    - Top 10 clients dynamique
-    - Cartes géographiques interactives
-    - Filtres multi-critères (période, région, produit)
+    - Indicateurs clés en temps réel
+    - Visualisations interactives
+    - Filtres multi-critères
     
     **Valeur**  
-    - Lecture immédiate des tendances
-    - Identification rapide des opportunités
-    - Pilotage commercial data-driven
+    - Identification rapide des tendances
+    - Aide au pilotage commercial
+    - Décisions basées sur des données claires
     
-    **Stack**  
-    `Streamlit` • `Plotly` • `Pandas` • `Matplotlib`
+    **Compétences**  
+    Data Visualization • KPI Design • Applications Data interactives
     """)
 
 st.markdown("---")
@@ -296,7 +294,7 @@ st.markdown("""
         🛡️ Fiabilité & sécurité
     </h2>
     <p style="color: #6b7280; font-size: 1.2rem;">
-        Certaines données ne tolèrent aucune erreur.
+        Quand la précision et la sécurité sont non négociables.
     </p>
 """, unsafe_allow_html=True)
 
@@ -307,8 +305,8 @@ with col1:
         "Détection Faux Billets",
         {
             "Usage": "Contrôle automatique",
-            "Résultat": "Accuracy 94%",
-            "Valeur": "Sécurité renforcée"
+            "Résultat": "Détection fiable",
+            "Valeur": "Réduction des risques"
         },
         "💵",
         "danger"
@@ -319,8 +317,8 @@ with col2:
         "Administration Oracle",
         {
             "Usage": "Bases critiques",
-            "Impact": "Optimisation -40%",
-            "Valeur": "Performance & stabilité"
+            "Impact": "Optimisation et stabilité",
+            "Valeur": "Performance et sécurité"
         },
         "🗄️",
         "success"
@@ -329,40 +327,40 @@ with col2:
 with st.expander("🔍 Détails — Détection Faux Billets"):
     st.markdown("""
     **Objectif**  
-    Automatiser le contrôle de billets par vision artificielle.
+    Automatiser la détection de faux billets.
     
-    **Méthode**  
-    - Traitement d'images et extraction de features
-    - Classification automatique (authentique/contrefait)
-    - Temps de traitement < 2 secondes
+    **Approche**  
+    - Traitement d'images et extraction de caractéristiques
+    - Modèle de classification
+    - Tests et validation
     
-    **Impact**  
-    - Accuracy 94%
-    - Automatisation complète du contrôle
-    - Réduction risques financiers
+    **Résultats**  
+    - Détection fiable
+    - Réduction des risques
+    - Automatisation du contrôle
     
-    **Stack**  
-    `Python` • `OpenCV` • `TensorFlow` • `Keras`
+    **Compétences**  
+    Computer Vision appliquée • Classification • Deep Learning
     """)
 
 with st.expander("🔍 Détails — Administration Oracle"):
     st.markdown("""
     **Contexte**  
-    Bases de données critiques nécessitant performance et sécurité maximales.
+    Bases critiques nécessitant stabilité et performance.
     
-    **Réalisations**  
-    - Upgrade Oracle Express 18.1
-    - Optimisation requêtes complexes (-40% temps)
-    - Sécurisation des accès et audit
-    - Développement fonctionnalités métier
+    **Travaux réalisés**  
+    - Mise à niveau de l'environnement
+    - Optimisation des requêtes
+    - Sécurisation des accès
+    - Développement de fonctionnalités
     
-    **Impact**  
-    - Performance améliorée
-    - Stabilité garantie
+    **Résultats**  
+    - Meilleures performances
+    - Stabilité accrue
     - Sécurité renforcée
     
-    **Stack**  
-    `Oracle Express` • `SQL` • `PL/SQL`
+    **Compétences**  
+    Administration de bases critiques • SQL avancé • Optimisation de requêtes
     """)
 
 st.markdown("---")
@@ -374,7 +372,7 @@ st.markdown("""
         💻 Le produit final
     </h2>
     <p style="color: #6b7280; font-size: 1.2rem;">
-        La data ne vit pas seule. Elle alimente des applications réelles.
+        Transformer la data en applications utilisables.
     </p>
 """, unsafe_allow_html=True)
 
@@ -392,21 +390,21 @@ st.markdown(create_info_card(
 with st.expander("🔍 Détails — Système de Réservation"):
     st.markdown("""
     **Objectif**  
-    Développer un système de réservation complet connecté à l'API Amadeus.
+    Concevoir une application complète connectée à une API externe.
     
     **Réalisations**  
-    - **Back-end** : Gestion réservations, traitement API, logique métier
-    - **Front-end** : Interface utilisateur intuitive et responsive
-    - **Sécurité** : Flux sécurisés, gestion sessions, protection données
-    - **Reporting** : Génération automatique rapports de suivi
+    - Logique métier et gestion des réservations
+    - Interface utilisateur fonctionnelle
+    - Intégration API temps réel
+    - Génération de rapports
     
     **Valeur**  
-    - Produit livré de bout en bout
-    - Intégration API externe maîtrisée
-    - Automatisation complète du workflow
+    - Application livrée de bout en bout
+    - Workflow automatisé
+    - Intégration maîtrisée
     
-    **Stack**  
-    `PHP` • `HTML/CSS` • `JavaScript` • `API Amadeus` • `MySQL`
+    **Compétences**  
+    Développement d'applications data • Intégration d'API • Process Automation
     """)
 
 st.markdown("---")
@@ -415,10 +413,11 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%); border-radius: 20px;">
     <h2 style="font-size: 2.2rem; font-weight: 700; color: #1f2937; margin-bottom: 1rem;">
-        Prêt à passer à l'action ?
+        Disponible pour des opportunités data
     </h2>
-    <p style="font-size: 1.3rem; color: #6b7280; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
-        Je construis des systèmes data qui aident à décider.
+    <p style="font-size: 1.3rem; color: #6b7280; margin-bottom: 2.5rem; max-width: 760px; margin-left: auto; margin-right: auto;">
+        Je conçois des solutions data concrètes,
+        orientées terrain, automatisation et prise de décision.
     </p>
     <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
         <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4); transition: transform 0.3s ease;">

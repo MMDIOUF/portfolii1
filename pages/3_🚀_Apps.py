@@ -9,10 +9,12 @@ inject_custom_css()
 st.markdown("""
 <div style="text-align: center; padding: 3rem 2rem 2rem;">
     <h1 style="font-size: 2.5rem; font-weight: 800; color: #1f2937; margin-bottom: 1rem;">
-        🚀 Applications Déployées
+        🚀 Applications Data & Analytics Déployées
     </h1>
-    <p style="font-size: 1.2rem; color: #6b7280; max-width: 700px; margin: 0 auto; line-height: 1.5;">
-        Découvrez mes réalisations en ligne, accessibles et opérationnelles.
+    <p style="font-size: 1.2rem; color: #6b7280; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+        Une sélection d'applications data concrètes, conçues pour automatiser des processus,
+        analyser des données et faciliter la prise de décision.
+        Chaque solution est accessible en ligne, fonctionnelle et orientée usage métier.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -23,7 +25,8 @@ st.markdown("---")
 st.markdown("""
 <div style="padding: 1rem 0;">
     <p style="color: #6b7280; font-size: 1.1rem; text-align: center; margin-bottom: 2rem;">
-        Chaque application est déployée et prête à être explorée.
+        Ces applications illustrent ma capacité à transformer des besoins métier
+        en outils data opérationnels : automatisation, visualisation, pilotage et analyse.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -46,15 +49,16 @@ with col1:
     with st.expander("📋 Détails"):
         st.markdown("""
         **Description**  
-        Application de codification pour la gestion et le traitement de données structurées.
+        Application de codification conçue pour structurer, normaliser et exploiter efficacement des données issues d'enquêtes, formulaires ou bases opérationnelles.
         
         **Fonctionnalités**
-        - Interface intuitive de codification
-        - Traitement automatisé des données
-        - Export des résultats
+        - Codification assistée pour données qualitatives et quantitatives
+        - Automatisation des règles de traitement et de contrôle
+        - Réduction des erreurs manuelles et gain de temps opérationnel
+        - Export prêt pour analyse et reporting
         
-        **Technologies**  
-        `Streamlit` • `Python` • `Pandas`
+        **Compétences**  
+        Data Cleaning & Quality • Process Automation • Applications Data
         """)
     
     st.markdown("""
@@ -84,15 +88,15 @@ with col2:
     with st.expander("📋 Détails"):
         st.markdown("""
         **Description**  
-        Plateforme de gestion complète avec tableaux de bord interactifs et suivi en temps réel.
+        Plateforme de pilotage permettant de centraliser les données, suivre les indicateurs clés et visualiser la performance en temps quasi réel.
         
         **Fonctionnalités**
-        - Dashboard de gestion centralisé
-        - Visualisations dynamiques
-        - Suivi des indicateurs clés
+        - Tableaux de bord dynamiques orientés KPI
+        - Visualisations interactives pour l'analyse rapide
+        - Suivi de performance et aide à la décision
         
-        **Technologies**  
-        `Streamlit` • `Python` • `Plotly`
+        **Compétences**  
+        Business Intelligence • KPI Design • Data Visualization
         """)
     
     st.markdown("""
@@ -125,15 +129,15 @@ with col3:
     with st.expander("📋 Détails"):
         st.markdown("""
         **Description**  
-        Tableau de bord analytique avancé pour l'analyse de données et la visualisation de KPIs.
+        Dashboard analytique conçu pour explorer des données, analyser des tendances et suivre des indicateurs de performance clés.
         
         **Fonctionnalités**
-        - Analyses statistiques avancées
-        - Graphiques interactifs
-        - Rapports automatisés
+        - Analyse exploratoire et descriptive des données
+        - Visualisations interactives orientées insights
+        - Génération de rapports analytiques automatisés
         
-        **Technologies**  
-        `Streamlit` • `Python` • `Pandas` • `Plotly`
+        **Compétences**  
+        Data Analysis & Exploration • Data Storytelling • Reporting automatisé
         """)
     
     st.markdown("""
@@ -163,15 +167,15 @@ with col4:
     with st.expander("📋 Détails"):
         st.markdown("""
         **Description**  
-        Application complète intégrant plusieurs fonctionnalités métier et modules de gestion.
+        Application data multi-modules développée pour expérimenter l'intégration de plusieurs fonctionnalités métier au sein d'une seule interface.
         
         **Fonctionnalités**
-        - Gestion multi-modules
-        - Interface utilisateur complète
-        - Intégration de données
+        - Modules de gestion et de visualisation de données
+        - Interface utilisateur structurée et intuitive
+        - Intégration et exploitation de jeux de données multiples
         
-        **Technologies**  
-        `Streamlit` • `Python` • `Pandas`
+        **Compétences**  
+        Applications Data-driven • Intégration de données • Data Visualization
         """)
     
     st.markdown("""
@@ -188,22 +192,3 @@ with col4:
 
 st.markdown("---")
 
-# === CTA ===
-st.markdown("""
-<div style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%); border-radius: 20px;">
-    <h2 style="font-size: 1.8rem; font-weight: 700; color: #1f2937; margin-bottom: 1rem;">
-        Besoin d'une application similaire ?
-    </h2>
-    <p style="font-size: 1.1rem; color: #6b7280; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-        Je développe des applications web sur mesure, du prototype au déploiement.
-    </p>
-    <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
-        <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 0.8rem 2rem; border-radius: 50px; font-size: 1rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);">
-            📞 Appelez-moi
-        </a>
-        <a href='mailto:dioufmakhtar77@gmail.com?subject=Projet%20Application%20-%20Contact' style='display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%); color: white; padding: 0.8rem 2rem; border-radius: 50px; font-size: 1rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4);'>
-            ✉️ Écrivez-moi
-        </a>
-    </div>
-</div>
-""", unsafe_allow_html=True)
